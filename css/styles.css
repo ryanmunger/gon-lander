@@ -1,0 +1,83 @@
+body {
+  background: url(../img/background.png) repeat-x 0 0;
+  background-size: cover;
+  font-size: 16px;
+  margin-top: 58px;
+}
+
+p {
+  color: #6b777c;
+  font-size: 18px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 42.8125em;
+  margin: 0 auto;
+}
+
+.phone {
+  width: 62.5%;
+  float: left;
+}
+
+.cta {
+  float: left;
+  margin-top: 280px;
+  text-align: center;
+  width: 35%;
+  padding-right: 2%;
+}
+
+.download {
+  height: 80px;
+  width: 256px;
+  background: #677379;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 50px;
+  font-size: 18px;
+  color: #fff;
+  margin-top: 43px;
+  width: 100%;
+}
+
+.download span {
+  display: block;
+  color: #afb8bc;
+  font-size: 24px;
+  margin-top: 14px;
+  font-weight: bold;
+  transition: all .4s ease;
+}
+
+.download:hover span {
+  color: #ffcc00;
+}
+
+@media all and (max-width: 620px) {
+  .download {
+    font-size: 14px;
+    height: 70px;
+  }
+
+  .download span {
+    font-size: 20px;
+  }
+  
+}
+
+@media all and (max-width: 480px) {
+  .phone {
+    display: none;
+  }
+  .cta {
+    width: 50%;
+    float: none;
+    margin: 0 auto;
+    margin-top: 200px;
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "gon-lander",
+  "version": "0.0.0",
+  "description": "Landing page for Gon",
+  "main": "web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryanmunger/gon-lander"
+  },
+  "author": "Ryan Munger",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/ryanmunger/gon-lander/issues"
+  },
+  "homepage": "https://github.com/ryanmunger/gon-lander",
+  "dependencies": {
+    "logfmt": "~1.1.2",
+    "express": "~4.4.3"
+  }
+}
