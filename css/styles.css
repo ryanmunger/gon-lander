@@ -27,7 +27,7 @@ img {
 .cta {
   float: left;
   margin-top: 280px;
-  text-align: center;
+  text-align:center;
   width: 35%;
   padding-right: 2%;
 }
@@ -81,3 +81,18 @@ img {
     margin-top: 100px;
   }
 }
+
+footer{
+    clear: both;
+    position: relative;
+    height: 3em;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 16px;
+}
+
+footer a{
+ color: #6b777c;
+}
+
+
