@@ -70,6 +70,20 @@ img {
   
 }
 
+footer {
+  clear: both;
+  margin-top: 0;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 16px;
+  position: relative;
+  top: -10px;
+}
+
+footer a {
+ color: #6b777c;
+}
+
 @media all and (max-width: 480px) {
   .phone {
     display: none;
@@ -80,19 +94,7 @@ img {
     margin: 0 auto;
     margin-top: 100px;
   }
-}
-
-footer{
-    clear: both;
-    position: relative;
-    height: 3em;
+  footer {
     margin-top: 30px;
-    text-align: center;
-    font-size: 16px;
+  }
 }
-
-footer a{
- color: #6b777c;
-}
-
-
