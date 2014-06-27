@@ -22,6 +22,7 @@ img {
 .phone {
   width: 62.5%;
   float: left;
+  margin-bottom: 50px;
 }
 
 .cta {
@@ -56,6 +57,40 @@ img {
 
 .download:hover span {
   color: #ffcc00;
+}
+
+footer ul {
+  list-style-type: none; 
+}
+
+footer ul li {
+  display: inline;
+}
+
+footer ul li a {
+  text-decoration: none;
+  margin-right: 40px;
+}
+
+footer ul li a span {
+  text-decoration: underline;
+}
+
+.play-button {
+  width: 67px;
+  height: 60px;
+  position: fixed;
+  top: 89px;
+  background: #ff9933;
+  right: 0;
+}
+
+.play-button img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -9px;
+  margin-left: -8px;
 }
 
 @media all and (max-width: 620px) {
@@ -96,5 +131,22 @@ footer a {
   }
   footer {
     margin-top: 30px;
+  }
+  footer ul {
+    margin-top: 50px;
+  }
+  .play-button {
+    width: 47px;
+    height: 40px;
+  }
+  .play-button img {
+    margin-left: -6px;
+  }
+}
+
+@media all and (max-width: 420px) {
+  footer ul li {
+    display: block;
+    margin-bottom: 15px;
   }
 }
